@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Astah-Edition: all
+Astah-Version: 6.7
+Bnd-LastModified: 1555117118029
+Build-Jdk: 1.8.0_191
+Built-By: tomo
+Bundle-Activator: iwa.Activator
+Bundle-Description: %bundle.description
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: iwa.astah-vim; singleton:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;type=!pom
+Embed-Transitive: true
+Export-Package: iwa;version="1.0.0.SNAPSHOT";uses:="com.change_vision.ju
+ de.api.inf.ui,org.osgi.framework"
+Import-Package: com.change_vision.jude.api.inf;resolution:=optional,com.
+ change_vision.jude.api.inf.exception;resolution:=optional,com.change_vi
+ sion.jude.api.inf.model;resolution:=optional,com.change_vision.jude.api
+ .inf.project;resolution:=optional,com.change_vision.jude.api.inf.ui;res
+ olution:=optional,com.change_vision.jude.api.inf.view;resolution:=optio
+ nal,javax.swing;resolution:=optional,org.osgi.framework;resolution:=opt
+ ional;version="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906

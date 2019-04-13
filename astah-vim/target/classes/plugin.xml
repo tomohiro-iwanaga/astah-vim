@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="iwa.astah-vim.actionSet">
+         <menu
+               id="astah-vim"
+               label="%menu_group"
+               path="tool/astah-vim">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="iwa.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/astah-vim/"
+               id="astah-vim">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
